@@ -35,7 +35,7 @@ public void navigate_to_BUzz_after_log_in_with_Admin_user() throws Throwable {
 	driver = initializeWebDriver();
 	WaitMethods.staticWait(5000);
 	objLoginpage = new Loginpage(driver, scenario);
-	scenario.write("Loggin into the Orange HRM Application");
+	scenario.write("Logging into the Orange HRM Application");
 	objLoginpage.logintoApplication(ReadProperties.getAppUserName(), ReadProperties.getAppPassword());
 	WaitMethods.staticWait(5000);
 	scenario.embed(CaptureScreenshot.captureImage(driver), "image/png");

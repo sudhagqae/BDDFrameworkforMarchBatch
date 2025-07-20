@@ -5,6 +5,9 @@ com\qa\stepdefnition\BuzzCURDSteps.class
 com\qa\util\CaptureScreenshot.class
 com\qa\pages\BuzzPage.class
 com\qa\util\ReadProperties.class
+com\qa\runner\Runner.class
+com\qa\stepdefnition\LeaveTypeCRUDSteps.class
 com\qa\base\Base.class
 com\qa\util\WaitMethods.class
 com\qa\pages\Loginpage.class
+com\qa\pages\LeavePage.class

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.qa.runner.Runner" time="152.954" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.qa.runner.Runner" time="63.686" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
@@ -64,20 +64,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given Navigate to BUzz after log in with Admin user" classname="| OrangeHRM is very good software | 1 | sandip |" time="0.008"/>
-  <testcase name="When Post the comment as &quot;OrangeHRM is very good software&quot;" classname="| OrangeHRM is very good software | 1 | sandip |" time="0"/>
-  <testcase name="Then verify that comment time user and comment text is posted correctly as &quot;OrangeHRM is very good software&quot;" classname="| OrangeHRM is very good software | 1 | sandip |" time="0"/>
-  <testcase name="When I click on like" classname="| OrangeHRM is very good software | 1 | sandip |" time="0"/>
-  <testcase name="Then I verify the like count is updated as Expected count &quot;1&quot;" classname="| OrangeHRM is very good software | 1 | sandip |" time="0"/>
-  <testcase name="When I Edit the post with updated comment&quot;sandip&quot;" classname="| OrangeHRM is very good software | 1 | sandip |" time="0"/>
-  <testcase name="Then I verify that updated comment&quot;sandip&quot;" classname="| OrangeHRM is very good software | 1 | sandip |" time="0"/>
-  <testcase name="Then I delete the Post" classname="| OrangeHRM is very good software | 1 | sandip |" time="0"/>
-  <testcase name="| OrangeHRM is very good software | 1 | sandip |" classname="| OrangeHRM is very good software | 1 | sandip |" time="0.818"/>
-  <testcase name="Given Navigate to PIM after log in with Admin user" classname="| AutU1Fname | AutU1Mname | AutU1Lname |" time="0"/>
-  <testcase name="When I Add employee with  first name as &quot;AutU1Fname&quot; and mname as &quot;AutU1Mname&quot; and lName as &quot;AutU1Lname&quot;" classname="| AutU1Fname | AutU1Mname | AutU1Lname |" time="0"/>
-  <testcase name="Then I  verify employeeAdded in list with  first name as &quot;AutU1Fname&quot; and mname as &quot;AutU1Mname&quot; and lName as &quot;AutU1Lname&quot;" classname="| AutU1Fname | AutU1Mname | AutU1Lname |" time="0"/>
-  <testcase name="When I click on Edit button and update below values and save the Data" classname="| AutU1Fname | AutU1Mname | AutU1Lname |" time="0"/>
-  <testcase name="Then I search the employee and ensure that it is searched using below values" classname="| AutU1Fname | AutU1Mname | AutU1Lname |" time="0"/>
-  <testcase name="And I select and Delete the Updated Employee and verify employee is not  in search result" classname="| AutU1Fname | AutU1Mname | AutU1Lname |" time="0"/>
-  <testcase name="| AutU1Fname | AutU1Mname | AutU1Lname |" classname="| AutU1Fname | AutU1Mname | AutU1Lname |" time="0.908"/>
+  <testcase name="Given Navigate to LEave after log in with Admin user" classname="Scenario: I am able to add, edit and Delete  LeaveType" time="0.004"/>
+  <testcase name="When I navigate config and then select Leave Types" classname="Scenario: I am able to add, edit and Delete  LeaveType" time="0"/>
+  <testcase name="Then Add the Leave with below field and values and I verify leave is displayed in leave list" classname="Scenario: I am able to add, edit and Delete  LeaveType" time="0"/>
+  <testcase name="Then I Edit the Leave type and change below values and I verify verify the leave name is changed to new name" classname="Scenario: I am able to add, edit and Delete  LeaveType" time="0"/>
+  <testcase name="And Delete the Newly added Leave Type" classname="Scenario: I am able to add, edit and Delete  LeaveType" time="0"/>
+  <testcase name="Scenario: I am able to add, edit and Delete  LeaveType" classname="Scenario: I am able to add, edit and Delete  LeaveType" time="1.082"/>
 </testsuite>
