@@ -3,6 +3,7 @@ C:\Users\DiyaBala\ECLIPSE WOKSPACE\BDDFrameworkMay2025\src\test\java\com\qa\page
 C:\Users\DiyaBala\ECLIPSE WOKSPACE\BDDFrameworkMay2025\src\test\java\com\qa\util\WaitMethods.java
 C:\Users\DiyaBala\ECLIPSE WOKSPACE\BDDFrameworkMay2025\src\test\java\com\qa\base\Base.java
 C:\Users\DiyaBala\ECLIPSE WOKSPACE\BDDFrameworkMay2025\src\test\java\com\qa\util\CaptureScreenshot.java
+C:\Users\DiyaBala\ECLIPSE WOKSPACE\BDDFrameworkMay2025\src\test\java\com\qa\pages\ClaimsPage.java
 C:\Users\DiyaBala\ECLIPSE WOKSPACE\BDDFrameworkMay2025\src\test\java\com\qa\stepdefnition\LeaveTypeCRUDSteps.java
 C:\Users\DiyaBala\ECLIPSE WOKSPACE\BDDFrameworkMay2025\src\test\java\com\qa\stepdefnition\BuzzCURDSteps.java
 C:\Users\DiyaBala\ECLIPSE WOKSPACE\BDDFrameworkMay2025\src\test\java\com\qa\pages\AddEmployeePage.java
@@ -10,4 +11,5 @@ C:\Users\DiyaBala\ECLIPSE WOKSPACE\BDDFrameworkMay2025\src\test\java\com\qa\page
 C:\Users\DiyaBala\ECLIPSE WOKSPACE\BDDFrameworkMay2025\src\test\java\com\qa\runner\Runner.java
 C:\Users\DiyaBala\ECLIPSE WOKSPACE\BDDFrameworkMay2025\src\test\java\com\qa\util\ElementActions.java
 C:\Users\DiyaBala\ECLIPSE WOKSPACE\BDDFrameworkMay2025\src\test\java\com\qa\util\ReadProperties.java
+C:\Users\DiyaBala\ECLIPSE WOKSPACE\BDDFrameworkMay2025\src\test\java\com\qa\stepdefnition\ClaimsCRUDSteps.java
 C:\Users\DiyaBala\ECLIPSE WOKSPACE\BDDFrameworkMay2025\src\test\java\com\qa\stepdefnition\EmployeeCURDSteps.java

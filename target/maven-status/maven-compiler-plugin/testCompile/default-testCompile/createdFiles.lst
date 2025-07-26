@@ -1,4 +1,6 @@
+com\qa\pages\ClaimsPage.class
 com\qa\util\ElementActions.class
+com\qa\stepdefnition\ClaimsCRUDSteps.class
 com\qa\pages\AddEmployeePage.class
 com\qa\stepdefnition\EmployeeCURDSteps.class
 com\qa\stepdefnition\BuzzCURDSteps.class
