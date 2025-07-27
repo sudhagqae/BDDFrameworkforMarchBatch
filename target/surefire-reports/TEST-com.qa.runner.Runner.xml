@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.qa.runner.Runner" time="106.184" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.qa.runner.Runner" time="54.908" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
     <property name="java.vm.version" value="25.271-b09"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\DiyaBala\.jenkins\workspace\OrangeHRMBDDFrameworkProject"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\DiyaBala\ECLIPSE WOKSPACE\BDDFrameworkMay2025"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\DiyaBala\.jenkins\workspace\OrangeHRMBDDFrameworkProject"/>
+    <property name="user.dir" value="C:\Users\DiyaBala\ECLIPSE WOKSPACE\BDDFrameworkMay2025"/>
     <property name="java.runtime.version" value="1.8.0_271-b09"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Program Files\LocalMaven\apache-maven-3.9.9\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\LocalMaven\apache-maven-3.9.9/bin;C:\Program Files\Java\jdk1.8.0_271/bin;C:\Program Files\Java\jdk1.8.0_271/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\nodejs\node_modules;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\LocalMaven\apache-maven-3.9.9\bin;C:\Users\DiyaBala\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\DiyaBala\AppData\Local\Programs\Python\Python37\;C:\Users\DiyaBala\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\DiyaBala\AppData\Local\Programs\Python\Python312\;C:\Users\DiyaBala\AppData\Local\Microsoft\WindowsApps;C:\Users\DiyaBala\JAVA1.8\bin;C:\Users\DiyaBala\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.2\bin;;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\nodejs\node_modules;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\LocalMaven\apache-maven-3.9.9\bin;C:\Users\DiyaBala\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\DiyaBala\AppData\Local\Programs\Python\Python37\;C:\Users\DiyaBala\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\DiyaBala\AppData\Local\Programs\Python\Python312\;C:\Users\DiyaBala\AppData\Local\Microsoft\WindowsApps;C:\Users\DiyaBala\JAVA1.8\bin;C:\Users\DiyaBala\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.2\bin;;."/>
     <property name="maven.conf" value="C:\Program Files\LocalMaven\apache-maven-3.9.9/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_271\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f C:\Users\DiyaBala\ECLIPSE WOKSPACE\BDDFrameworkMay2025\pom.xml clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -53,22 +53,22 @@
     <property name="java.version" value="1.8.0_271"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="C:\Program Files\LocalMaven\apache-maven-3.9.9"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given Navigate to Claims after log in with Admin user" classname="Scenario: I am able to add, edit and Delete  Expenses and verify the total" time="0.003"/>
-  <testcase name="And I navigate to submit claims Page" classname="Scenario: I am able to add, edit and Delete  Expenses and verify the total" time="0"/>
-  <testcase name="When I crate claim Request with Event and Currency" classname="Scenario: I am able to add, edit and Delete  Expenses and verify the total" time="0"/>
-  <testcase name="When I add Expenses for the new claim Request with below fields and values" classname="Scenario: I am able to add, edit and Delete  Expenses and verify the total" time="0"/>
-  <testcase name="When I add Expenses for the new claim Request with below fields and values" classname="Scenario: I am able to add, edit and Delete  Expenses and verify the total" time="0"/>
-  <testcase name="Then I verify the total amount of all expenses is caculated correctly" classname="Scenario: I am able to add, edit and Delete  Expenses and verify the total" time="0"/>
-  <testcase name="When I edit the Expense" classname="Scenario: I am able to add, edit and Delete  Expenses and verify the total" time="0"/>
-  <testcase name="When Delete one Expense" classname="Scenario: I am able to add, edit and Delete  Expenses and verify the total" time="0"/>
-  <testcase name="Scenario: I am able to add, edit and Delete  Expenses and verify the total" classname="Scenario: I am able to add, edit and Delete  Expenses and verify the total" time="1.262"/>
+  <testcase name="Given Navigate to Claims after log in with Admin user" classname="Scenario: I am able to add view edit and Delete  Event" time="0.008"/>
+  <testcase name="When I navigate to Configuration menu and Select Event option" classname="Scenario: I am able to add view edit and Delete  Event" time="0"/>
+  <testcase name="When I add new Event with below event Name" classname="Scenario: I am able to add view edit and Delete  Event" time="0"/>
+  <testcase name="Then I Search Event with below eventName" classname="Scenario: I am able to add view edit and Delete  Event" time="0"/>
+  <testcase name="When I edit the Event and change name" classname="Scenario: I am able to add view edit and Delete  Event" time="0"/>
+  <testcase name="Then I delete the newly added and updated Event" classname="Scenario: I am able to add view edit and Delete  Event" time="0"/>
+  <testcase name="Scenario: I am able to add view edit and Delete  Event" classname="Scenario: I am able to add view edit and Delete  Event" time="0.879"/>
 </testsuite>
