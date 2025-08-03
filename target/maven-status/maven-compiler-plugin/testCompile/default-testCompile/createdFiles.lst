@@ -1,3 +1,5 @@
+com\qa\pages\DashboardPage.class
+com\qa\stepdefnition\DashboardSteps.class
 com\qa\pages\ClaimsPage.class
 com\qa\util\ElementActions.class
 com\qa\stepdefnition\ClaimsCRUDSteps.class

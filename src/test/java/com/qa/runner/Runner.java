@@ -14,11 +14,11 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/features", glue = { "com.qa.stepdefnition" },
-plugin = { "pretty", "json:target/cucumber-reports/Cucumber.json" },tags={ "@EventCRUD "},monochrome = true)
+plugin = { "pretty", "html:target/cucumber-reports/Cucumber.html" },tags={ "@DashboardTests "},monochrome = true)
 
 //json:target/cucumber-reports/Cucumber.json
 //html:target/cucumber-reports/Cucumber.html
-//@employeeCRUD5TCS, @buzzCRUD5TCS
+//@employeeCRUD5TCS, @buzzCRUD5TCS, @EventCRUD
 public class Runner {
 	
 	
