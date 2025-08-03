@@ -18,7 +18,7 @@ plugin = { "pretty", "html:target/cucumber-reports/Cucumber.html" },tags={ "@Das
 
 //json:target/cucumber-reports/Cucumber.json
 //html:target/cucumber-reports/Cucumber.html
-//@employeeCRUD5TCS, @buzzCRUD5TCS, @EventCRUD
+//@employeeCRUD5TCS, @buzzCRUD5TCS, @LeaveTypeCrud, @ClaimsCRUD, @EventCRUD, @DashboardTests
 public class Runner {
 	
 	
